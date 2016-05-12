@@ -145,3 +145,4 @@ buffer_input = clCreateBuffer (context, CL_MEM_READ_ONLY, size_2d, NULL, &ret);
  return 0;
 }
 asdf
+asdf
