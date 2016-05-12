@@ -1,0 +1,27 @@
+{
+	"active": true,
+	"createdTimestamp": 1454548204791,
+	"deviceProfileId": "",
+	"friendlyName": "Default Presentation",
+	"presentationDefinition": {
+		"attributeOptions": {},
+		"controls": [],
+		"gauge": {
+			"background": {
+				"images": []
+			},
+			"displayRules": [],
+			"foreground": {
+				"images": [
+					{
+						"uri": "device_icon_unknown.png"
+					}
+				]
+			}
+		},
+		"groups": [],
+		"label": "asdf"
+	},
+	"presentationId": "1454548204791",
+	"valid": true
+}

@@ -1,0 +1,176 @@
+{
+	"schemaVersion": 2,
+	"deviceDescriptionId": "",
+	"partnerId": "",
+	"createdTimestamp": 1454548278632,
+	"services": [
+		{
+			"id": 1,
+			"attributes": [
+				{
+					"id": 1024,
+					"semanticType": "Unnamed Attribute I/O 0",
+					"dataType": "SINT16",
+					"length": 2,
+					"operations": [
+						"READ"
+					],
+					"defaultValue": null
+				},
+				{
+					"id": 1025,
+					"semanticType": "GPIO 0 Configuration",
+					"dataType": "SINT64",
+					"length": 8,
+					"operations": [
+						"READ"
+					],
+					"defaultValue": "2100040000000000"
+				},
+				{
+					"id": 1026,
+					"semanticType": "Unnamed Attribute I/O 1",
+					"dataType": "SINT16",
+					"length": 2,
+					"operations": [
+						"READ",
+						"WRITE"
+					],
+					"defaultValue": "0000"
+				},
+				{
+					"id": 1027,
+					"semanticType": "GPIO 1 Configuration",
+					"dataType": "SINT64",
+					"length": 8,
+					"operations": [
+						"READ"
+					],
+					"defaultValue": "10002c0100000000"
+				},
+				{
+					"id": 1028,
+					"semanticType": "Unnamed Attribute I/O 2",
+					"dataType": "SINT16",
+					"length": 2,
+					"operations": [
+						"READ",
+						"WRITE"
+					],
+					"defaultValue": "0000"
+				},
+				{
+					"id": 1029,
+					"semanticType": "GPIO 2 Configuration",
+					"dataType": "SINT64",
+					"length": 8,
+					"operations": [
+						"READ"
+					],
+					"defaultValue": "10002c0100000000"
+				},
+				{
+					"id": 1030,
+					"semanticType": "Unnamed Attribute I/O 3",
+					"dataType": "SINT16",
+					"length": 2,
+					"operations": [
+						"READ"
+					],
+					"defaultValue": null
+				},
+				{
+					"id": 1031,
+					"semanticType": "GPIO 3 Configuration",
+					"dataType": "SINT64",
+					"length": 8,
+					"operations": [
+						"READ"
+					],
+					"defaultValue": "0900000000000000"
+				},
+				{
+					"id": 2001,
+					"semanticType": "Bootloader Version",
+					"dataType": "SINT64",
+					"operations": [
+						"READ"
+					],
+					"defaultValue": null,
+					"length": 8
+				},
+				{
+					"id": 2002,
+					"semanticType": "Soft Device Version",
+					"dataType": "SINT64",
+					"operations": [
+						"READ"
+					],
+					"defaultValue": null,
+					"length": 8
+				},
+				{
+					"id": 2003,
+					"semanticType": "Application Version",
+					"dataType": "SINT64",
+					"operations": [
+						"READ"
+					],
+					"defaultValue": null,
+					"length": 8
+				},
+				{
+					"id": 2004,
+					"semanticType": "Device Profile Version",
+					"dataType": "SINT64",
+					"operations": [
+						"READ"
+					],
+					"defaultValue": null,
+					"length": 8
+				},
+				{
+					"id": 60000,
+					"semanticType": "Security Enabled",
+					"dataType": "BOOLEAN",
+					"operations": [
+						"READ"
+					],
+					"defaultValue": "01",
+					"length": 1
+				},
+				{
+					"id": 65019,
+					"semanticType": "Reboot Reason",
+					"dataType": "UTF8S",
+					"operations": [
+						"READ"
+					],
+					"defaultValue": null,
+					"length": 64
+				},
+				{
+					"id": 65020,
+					"semanticType": "BLE Comms",
+					"dataType": "BYTES",
+					"operations": [
+						"READ",
+						"WRITE"
+					],
+					"defaultValue": "FA000000180018000C00A00F",
+					"length": 12
+				},
+				{
+					"id": 65021,
+					"semanticType": "SPI Enabled",
+					"dataType": "BOOLEAN",
+					"operations": [
+						"READ"
+					],
+					"defaultValue": "00",
+					"length": 1
+				}
+			]
+		}
+	]
+}
